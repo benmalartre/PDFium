@@ -1,0 +1,15 @@
+﻿Build started 08/01/2019 12:35:17.
+     1>Project "E:\Projects\RnD\PDFium\utils\PDFWriter\PDFWriter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\Projects\RnD\PDFium\fpdfsdk\include /IE:\Projects\RnD\PDFium\core\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt writer.cpp
+     1>cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+         writer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\RnD\PDFium\utils\PDFWriter\Release\PDFWriter.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\RnD\PDFium\utils\PDFWriter\Release\PDFWriter.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\RnD\PDFium\utils\PDFWriter\Release\PDFWriter.lib" /MACHINE:X86 /SAFESEH /DLL Release\writer.obj
+            Creating library E:\Projects\RnD\PDFium\utils\PDFWriter\Release\PDFWriter.lib and object E:\Projects\RnD\PDFium\utils\PDFWriter\Release\PDFWriter.exp
+         PDFWriter.vcxproj -> E:\Projects\RnD\PDFium\utils\PDFWriter\Release\PDFWriter.dll
+     1>Done Building Project "E:\Projects\RnD\PDFium\utils\PDFWriter\PDFWriter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.89

@@ -1,0 +1,17 @@
+﻿Build started 08/01/2019 12:40:10.
+     1>Project "E:\Projects\RnD\PDFium\utils\PDFWriter\PDFWriter.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\Projects\RnD\PDFium\fpdfsdk\include /IE:\Projects\RnD\PDFium\core\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /D _WINDLL /D _MBCS /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt writer.cpp
+     1>cl : Command line warning D9025: overriding '/sdl' with '/GS-'
+         writer.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale(337): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\RnD\PDFium\writer.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\RnD\PDFium\writer.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\RnD\PDFium\writer.lib" /MACHINE:X64 /DLL x64\Release\writer.obj
+            Creating library E:\Projects\RnD\PDFium\writer.lib and object E:\Projects\RnD\PDFium\writer.exp
+         PDFWriter.vcxproj -> E:\Projects\RnD\PDFium\writer.dll
+     1>Done Building Project "E:\Projects\RnD\PDFium\utils\PDFWriter\PDFWriter.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.85
